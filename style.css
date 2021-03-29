@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainAboutMeBlock{
+
+    height: 600px;
+    background-color: #e9ecef;
+    padding: 10px;
+    padding-left: 10px;
+    /* border: 5px solid darkgray; */
+    border-radius: 5%;
+    
+}
+.SmallText{
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+.myInfo{
+    height: 200px;
+    background-color: gray;
+    border: 5px solid skyblue;
+    margin-left:30px ;
+    margin-right: 40px;
+}
+.myCoding{
+    position: relative;
+    height: 200px;
+    background-color:gray;
+    border: 5px solid skyblue;
+    
+}
+
+.libraries{
+margin-left: 30%;
+
+}
+.myBio{
+    margin-top: 50px;
+    height: 300px;
+    background-color: gray;
+    border: 5px solid skyblue;
+}
+
+
+
+.mainBlock{
+    width: 1000px;
+    background-color:purple;
+    height:500px ;
+    margin: 0 auto;
+}
+.leftBlock{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: blue;
+}
+.rightBlock{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: red;
+}
