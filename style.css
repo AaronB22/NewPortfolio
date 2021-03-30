@@ -195,15 +195,15 @@ text-decoration: blue underline;
     width: 20px;
     margin-left: 98%;
 }
+.languagesHeader{
+    font-size:20px
+}
 }
 
 @media screen and (max-width: 800px){
 
 .myCoding{
     font-size: 12px;
-}
-.languagesHeader{
-    font-size:20px
 }
 
 .leftBlock{
@@ -215,4 +215,23 @@ text-decoration: blue underline;
     width: 250px;
 }
 }
+
+@media screen and (max-width: 700px){
+.infoList{
+    margin-left: 20%;
+}
+.mainBlock{
+    width: 350px;
+    height: 350px;
+}
+.leftBlock{
+    width: 200px;
+    height: 200px;
+}
+.rightBlock{
+    width: 200px;
+    height: 200px;
+}
+}
+
 
