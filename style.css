@@ -10,6 +10,32 @@
     bottom: 30px;
 }
 
+.sideBarLeft{
+    margin-top: 0px;
+    position: absolute;
+    /* bottom: 10px; */
+width: 15%;
+height:2500px ;
+background-color: skyblue;
+top: -50px;
+z-index: -1;
+
+}
+
+.sideBarRight{
+    margin-top: 0px;
+    position: absolute;
+   
+width: 15%;
+height:2500px ;
+background-color: skyblue;
+top: -50px;
+margin-left:85%;
+z-index: -1;
+}
+
+
+
 
 .mainAboutMeBlock{
 
@@ -30,15 +56,19 @@ margin: 30px;
     display: inline;
 }
 .abli{
+    color: springgreen;
 margin:50px ;
 font-size: 40px;
 text-decoration: blue underline;
+z-index: 2;
 }
 
 .prli{
+    color: springgreen;
     margin:50px ;
     font-size: 40px;
     text-decoration: blue underline;
+    z-index: 2;
 }
 
 .SmallText{
@@ -66,6 +96,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 200px;
     background-color:gray;
     border: 5px solid skyblue;
+    
     
 }
 
@@ -98,18 +129,90 @@ text-decoration: blue underline;
 .mainBlock{
     padding:0px;
     width: 1000px;
-    border:5px solid blue;
+    border:5px solid skyblue;
     height:500px ;
     margin: 25px auto;
     padding: 0px;
 }
 .leftBlock{
-    border:5px solid blue;
-    border-right: 2.5px solid blue;
+    border:5px solid skyblue;
+    border-right: 2.5px solid skyblue;
     padding: 0px;
 }
 .rightBlock{
  padding: 0px;
-    border:5px solid blue;
-    border-left:2.5px solid blue;
+    border:5px solid skyblue;
+    border-left:2.5px solid skyblue;
 }
+
+@media screen and (max-width: 1250px){
+    .infoList{
+        position: relative;
+        top:30px
+    }
+.myCoding{
+    position: relative;
+    
+    width: 200px;
+   left: 10%;
+    
+
+}
+.myBio{
+    position: relative; 
+    margin-bottom: 40px;
+}
+.mainAboutMeBlock{
+    height: 800px;
+}
+}
+@media screen and (max-width: 1000px){
+.mainBlock{
+    height: 250px;
+    width: 500px;
+}
+.leftBlock{
+    height: 300px;
+    width: 300px;
+}
+.rightBlock{
+    height: 300px;
+    width: 300px;
+}
+.abli{
+    font-size:30px
+}
+.prli{
+    font-size: 30px;
+}
+.librariesHeader{
+    font-size:20px
+}
+.sideBarLeft{
+    width: 20px;
+}
+.sideBarRight{
+    width: 20px;
+    margin-left: 98%;
+}
+}
+
+@media screen and (max-width: 800px){
+
+.myCoding{
+    font-size: 12px;
+}
+.languagesHeader{
+    font-size:20px
+}
+
+.leftBlock{
+    height: 250px;
+    width: 250px;
+}
+.rightBlock{
+    height: 250px;
+    width: 250px;
+}
+}
+

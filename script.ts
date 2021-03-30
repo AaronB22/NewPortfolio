@@ -1,4 +1,4 @@
-export
+
 
 const projOne= document.querySelector("#mainProject");
 projOne.addEventListener("click", toProj);
